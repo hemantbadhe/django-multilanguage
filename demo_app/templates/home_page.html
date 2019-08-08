@@ -1,0 +1,31 @@
+{% extends 'base_page.html' %}
+{% load i18n %}
+
+{% block head %}
+    <title>{% trans 'Sample Multi Language Project' %}</title>
+{% endblock %}
+
+{% block style %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-header">
+            {% trans 'Breaking News' %}
+        </div>
+        <div class="card-body">
+
+            {% for obj in objs %}
+                <h2><p class="card-text">{{ obj.title }}</p></h2>
+                <p class="card-text">{{ obj.text }}</p>
+                <hr>
+                <br>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}

@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-08 18:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: demo_app/templates/home_page.html:5
+msgid "Sample Multi Language Project"
+msgstr "نمونہ کثیر زبان کا پروجیکٹ۔"
+
+#: demo_app/templates/home_page.html:15
+msgid "Breaking News"
+msgstr "تازہ ترین خبر"
+
+#: sample_project/settings.py:81
+msgid "English"
+msgstr "انگریزی"
+
+#: sample_project/settings.py:82
+msgid "Urdu"
+msgstr "اردو"
+
+#: sample_project/settings.py:83
+msgid "Marathi"
+msgstr ""
